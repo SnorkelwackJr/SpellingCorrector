@@ -5,10 +5,7 @@ public class TrieNode implements INode {
     int count = 0;
     char nodeChar;
     String completeWord = "";
-    boolean isVisited = false;
 
     @Override
-    public int getValue() {
-        return count;
-    }
+    public int getValue() { return count; }
 }
